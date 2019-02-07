@@ -29,10 +29,10 @@ function love.load()
 			contents = file:read(1000)
 			file:close(file)
 			
-			s, e, title = string.find(contents, "Example: ([%a%p ]-)[\r\n]")
+			s, e, title = string.find(contents, "Exemplo: ([%a%p ]-)[\r\n]")
 			if not title then title = "Untitled" end
 			
-			s, e, info = string.find(contents, "Description:\r?\n?(.-)]]")
+			s, e, info = string.find(contents, "Descrição:\r?\n?(.-)]]")
 			if not info then info = "" end
 			info = info:gsub("\r", "")
 			

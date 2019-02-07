@@ -1,7 +1,7 @@
--- Example: Loading an Image and displaying it
---[[Description:
-Load an image using love.graphics.newImage(image_path)
-Draw it using love.graphics.draw
+-- Exemplo: Carregando uma imagem e printando ela
+--[[Descrição:
+Carregando uma imagem usando love.graphics.newImage(image_path)
+Desenhando ela usando love.graphics.draw
 ]]
 
 function love.load()

@@ -1,4 +1,4 @@
--- Example: Rotating images
+-- Exemplo: Rotacionando imagens
 
 angle = 0
 

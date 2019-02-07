@@ -1,4 +1,4 @@
--- Example: Sleeping
+-- Exemplo: Capacidade de aguardar
 
 function love.update(dt)
     -- Sleeps 10ms after each udpate. By doing this,

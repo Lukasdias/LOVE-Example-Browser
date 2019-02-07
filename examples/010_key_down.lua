@@ -1,4 +1,4 @@
--- Example: Checking if a key is down
+-- Exemplo: Checa qual tecla do teclado esta sendo usada
 
 function love.load()
     love.graphics.setFont(love.graphics.newFont(11))

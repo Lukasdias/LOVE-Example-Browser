@@ -1,4 +1,4 @@
--- Example: Move an image along cursor
+-- Exemplo: Mover uma imagem de acordo com o local do cursor
 
 function love.load()
 	-- Load the "cursor"

@@ -1,4 +1,4 @@
--- Example: Keyboard callbacks
+-- Exemplo: Callbacks do teclado
 
 function love.load()
     love.graphics.setFont(love.graphics.newFont(11))

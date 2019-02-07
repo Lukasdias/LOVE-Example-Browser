@@ -1,4 +1,4 @@
--- Example: Timing code
+-- Exemplo: Codigo de tempo passado
 
 function love.load()
     -- Get time before the code to be timed.

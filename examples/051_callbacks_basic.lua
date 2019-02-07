@@ -1,4 +1,4 @@
--- Example: Basic callbacks
+-- Exemplo: Callbacks basicos
 
 function love.load()
     love.graphics.setFont(love.graphics.newFont(11))

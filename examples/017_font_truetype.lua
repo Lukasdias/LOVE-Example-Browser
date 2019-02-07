@@ -1,4 +1,4 @@
--- Example: Using a truetype font
+-- Example: Usando um fonte diferente
 
 function love.load()
 	-- Create a new font with 32pt size and set it as default.

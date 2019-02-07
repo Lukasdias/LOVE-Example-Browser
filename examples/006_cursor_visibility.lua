@@ -1,4 +1,4 @@
--- Example: Cursor Visibility
+-- Exemplo: Visibilidade do cursor
 
 function love.load()
     -- Hide mouse on startup.

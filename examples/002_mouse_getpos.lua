@@ -1,5 +1,5 @@
--- Example: Getting the mouse position
---[[Description:
+-- Exemplo: Recebendo o local do mouse
+--[[Descrição:
 Get the mouse position with love.mouse.getPosition()
 Display it with love.graphics.print
 ]]

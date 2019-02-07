@@ -1,5 +1,4 @@
--- Example: Mini Physics
--- Updated 0.8.0 by Bartoleo
+-- Exemplo: Aprendendo a usar fisica do LOVE2D
 
 function love.load()
 

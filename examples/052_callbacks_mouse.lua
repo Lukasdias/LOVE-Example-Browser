@@ -1,4 +1,4 @@
--- Example: Mouse callbacks
+-- Exemplo: Callbacks Mouse 
 
 function love.load()
 	love.graphics.setFont(love.graphics.newFont(11))

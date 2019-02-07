@@ -1,7 +1,6 @@
--- Example: Moving objects to a specific point
+-- Exemplo: Movendo um objeto ate um determinado ponto
 --[[Description:
-Move an object to a target point, with acceleration, deceleration (traction)
-and a set top speed.
+Movendo um objeto ate um determinado ponto, com aceleracao, desaceleracao (tracao).
 ]]
 require ("movements")
 x, y = 400, 300

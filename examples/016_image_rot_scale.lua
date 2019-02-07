@@ -1,4 +1,4 @@
--- Example: Rotation and scaling
+-- Exemplo: Rotacionando e escalando a imagem
 
 angle = 0
 

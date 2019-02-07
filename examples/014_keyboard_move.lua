@@ -1,4 +1,4 @@
--- Example: Moving stuff with the keyboard
+-- Exemplo: Movendo coisas usando o teclado
 
 x, y = 400, 300
 

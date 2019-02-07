@@ -1,4 +1,4 @@
--- Example: Use an Image as cursor
+-- Exemplo: Usa uma imagem como cursor do mouse
 
 function love.load()
 	-- Load the "cursor" (with default hot spot 0, 0)

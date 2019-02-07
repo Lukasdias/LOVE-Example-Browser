@@ -1,4 +1,4 @@
--- Example: Create and use an Animation
+-- Exemplo: Cria e usa uma animacao
 require("animation")
 
 function newImagePO2(filename)

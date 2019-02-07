@@ -1,4 +1,4 @@
--- Example: FPS and delta-time
+-- Exemplo: FPS e delta-time
 
 function love.load()
     love.graphics.setFont(love.graphics.newFont(11))

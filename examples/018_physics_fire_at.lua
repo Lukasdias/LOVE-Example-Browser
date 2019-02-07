@@ -1,18 +1,18 @@
--- Example: Firing objects towards mouse
+-- Example: Sistema de projeteis
 --[[Description:
-Uses basic physics formulas to determine each bullet position.
-Auto removes off-screen bullets.
+Usa formulas matematicas basicas para determinar o local para onde cada bala vai.
+As balas que saem da telas sao excluidas automaticamente.
 ]]
 
 function love.load()	
-	SPEED = 250
+	SPEED = 150
 	StartPos = {x=250, y=250, width=50, height=50}	--The starting point that the bullets are fired from, acts like the shooter.
 	bullets={}										--The table that contains all bullets.
 end
 
 function love.draw()
 	--Sets the color to red and draws the "bullets".
-	love.graphics.setColor(1, 0, 0)
+	love.graphics.setColor(1, 1, 10)
 	
 	--This loops the whole table to get every bullet. Consider v being the bullet.
 	for i,v in pairs(bullets) do

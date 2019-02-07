@@ -1,7 +1,6 @@
 -- Example: Mini Physics Callbacks
--- Updated 0.8.0 by Bartoleo
 
-text = "No collision yet."
+text = "Sem colissoes ocorrendo."
 
 function love.load()
 
@@ -10,29 +9,29 @@ function love.load()
     -- One meter is 32px in physics engine
 	love.physics.setMeter( 32 )
 
-	-- Create a world with standard gravity
+	-- Cria a world with standard gravity
 	world = love.physics.newWorld(0, 9.81*32, true)
 
-	-- Create the ground body at (0, 0) static
+	-- Cria the ground body at (0, 0) static
 	ground = love.physics.newBody(world, 0, 0, "static")
 
-	-- Create the ground shape at (400,500) with size (600,10).
+	-- Cria the ground shape at (400,500) with size (600,10).
 	ground_shape = love.physics.newRectangleShape(400, 500, 600, 10)
 	
- 	-- Create fixture between body and shape
+ 	-- Cria fixture between body and shape
 	ground_fixture = love.physics.newFixture( ground, ground_shape)
 	ground_fixture:setUserData("Ground") -- Set a string userdata
 
 	-- Load the image of the ball.
 	ball = love.graphics.newImage("assets/love-ball.png")
 
-	-- Create a Body for the circle.
+	-- Cria a Body for the circle.
 	body = love.physics.newBody(world, 400, 200, "dynamic")
 	
 	-- Attatch a shape to the body.
 	circle_shape = love.physics.newCircleShape(0,0, 32)
 
-    -- Create fixture between body and shape
+    -- Cria fixture between body and shape
     fixture = love.physics.newFixture( body, circle_shape)
 
 	fixture:setUserData("Ball") -- Set a string userdata
@@ -59,7 +58,7 @@ function love.draw()
 	love.graphics.draw(ball,body:getX(), body:getY(), body:getAngle(),1,1,32,32)
 
 	-- Instructions
-	love.graphics.print("space: Apply a random impulse",5,5)
+	love.graphics.print("spacebar: Aplica um impulso aleatorio",5,5)
 
 	-- Draw text.
 	love.graphics.print(text, 5, 25)
@@ -76,12 +75,12 @@ end
 function beginContact(a, b, c)
 	local aa=a:getUserData()
 	local bb=b:getUserData()
-	text = "Collided: " .. aa .. " and " .. bb
+	text = "Colidiu: " .. aa .. " com " .. bb
 end
 
 -- This is called every time a collision end.
 function endContact(a, b, c)
 	local aa=a:getUserData()
 	local bb=b:getUserData()
-	text = "Collision ended: " .. aa .. " and " .. bb
+	text = "A colisao acabou entre: " .. aa .. " e " .. bb
 end

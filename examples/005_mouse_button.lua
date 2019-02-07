@@ -1,4 +1,4 @@
--- Example: Checking for pressed mouse buttons
+-- Exemplo: Checando qual tecla do mouse esta sendo utilizada
 
 function love.load()
    love.graphics.setFont(love.graphics.newFont(11))
